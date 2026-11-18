@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="피타 - 프로필 링크" />
+        <meta property="og:description" content="코딩을 사랑을 하는 시조새" />
+        <meta property="og:image" content="공유할 이미지" />
+        <title>피타 프로필</title>
+           <style>
+                @font-face {
+                    font-family: 'HSGooltokki';
+                    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/HSGooltokki.woff2') format('woff2');
+                    font-weight: normal;
+                    font-style: normal;
+                }
+                * {
+                    font-family: 'HSGooltokki';
+                }
+                body {
+                    background-color:#13eab1;
+                    background-image: url('https://c4.wallpaperflare.com/wallpaper/450/483/632/christmas-tree-in-the-forest-fine-trees-wallpaper-preview.jpg');
+                }
+                .profile {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100%;
+                    border: 2px solid white;
+                    background-image: url('wanda.png');
+                    background-position: center;
+                    background-size: cover;
+                }
+                .main {
+                    color : #f3fcfb;
+                    font-size: 22px;
+                    size : 20px;
+                    margin-top: 20px;
+                    margin-bottom: 5px;
+                }
+                .sub {
+                    color : #ecfffd;
+                    font-size: 14px;
+                    font-weight: 400;
+                    size : 14px;
+                    margin-top: 0px;
+                    margin-bottom: 10px;
+                }
+                .wrap {
+                    width: 300px;
+                    margin: 30px auto 0px auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .bigbutton {
+                    width: 320px;
+                    height: 46px;
+                    border-radius: 10px;
+                    background-color: #b3eeff;
+                    margin-bottom: 5px;
+                    font-size: 24px;
+                    font-weight: none;
+                    color:rgb(1, 72, 54);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    box-shadow: 0px 2px 8px rgba(45, 44, 75, 0.24);
+                }
+                .minibutton {
+                    width: 152px;
+                    height: 46px;
+                    border-radius: 10px;
+                    background-color: #b3eeff;
+                    margin-bottom: 5px;
+                    font-size: 24px;
+                    font-weight: none;
+                    color:rgb(1, 72, 54);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    box-shadow: 0px 2px 8px rgba(45, 44, 75, 0.24);
+                    margin: 0px 8px 5px 8px;
+                }
+                .buttons {
+                    display: flex;
+                }
+                .wrap > a:hover {
+                    background-color: #f2f2f2;
+                }
+                .buttons > a:hover {
+                    background-color: #f2f2f2;
+                }
+                .rtan {
+                    width: 100px;
+                    height: 100px;
+                    background-image: url('hippig.png');
+                    background-position: center;
+                    background-size: cover;
+                    position: absolute;
+                    bottom: 63px;               
+                }
+                .pink {
+                    width: 100%;
+                    height: 95px;
+                    background-color: #03a58a;
+                    position : absolute;
+                    bottom : 0;
+                    
+                }
+            </style>
+        </head>
+        <body>
+            <div class="wrap">
+                <div class="profile"></div>
+                <h1 class="main">피타</h1>
+                <p class="sub">코딩을 진심으로 사랑하는 시조새.</p>
+                <a class="bigbutton"target="_blank" href="https://zep.us/play/2Qax0J">안산시평생학습관</a>
+                <a class="bigbutton"target="_blank" href="https://www.awcc.or.kr/">안산시근로자종합복지관</a>
+                <div class="buttons">
+                    <a class="minibutton" target="_blank" href="https://www.instagram.com/spartacodingclub/">인스타그램</a>
+                    <a class="minibutton"target="_blank" href="https://spartacodingclub.kr/community/blog">블로그</a>
+                </div>
+                <a class="bigbutton"target="_blank" href="https://www.youtube.com/channel/UCEIoM2d2Av35xj25s1z7mkA">유튜브</a>
+                <a class="bigbutton"target="_blank" href="https://ladyfree.github.io/disc/">MZ의사소통</a>
+                <div class="pink"></div>
+                <div class="rtan"></div>
+            </div>
+        </body>
+        </html>
